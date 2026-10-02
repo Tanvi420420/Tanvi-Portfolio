@@ -1,0 +1,61 @@
+TANVI KUSHWAHA
+Computer Science Engineering (AI & ML) Student
+Gopalganj, Bihar, India
+
+CONTACT
+Email: ktanvi236@gmail.com
+Phone: 9801457010
+LinkedIn: https://linkedin.com/in/tanvi-kushwaha-1a93263a1
+
+PROFILE
+B.Tech student in Computer Science Engineering (AI & ML) with hands-on experience in Python, Java, SQL, machine learning, data analysis, and image processing. Interested in software development, data analysis, and machine learning.
+
+SKILLS
+Programming: Python, Java
+Databases: SQL, MySQL
+Machine Learning: Machine learning fundamentals, Image Processing, Data Analysis
+Web Development: HTML, CSS
+Soft Skills: Problem Solving, Teamwork, Communication, Quick Learner
+
+EXPERIENCE
+Machine Learning Intern | CodeAlpha — Virtual
+20 Jul 2026 – 20 Aug 2026
+- Completed a one-month virtual internship in Machine Learning.
+- Applied machine learning concepts and Python to hands-on internship tasks.
+- Certificate of Completion.
+
+Data Analysis with SQL Intern | Maincrafts Technology
+14 Jul 2026 – 29 Jul 2026
+- Used SQL to query, filter, and analyse datasets.
+- Worked on project-related data analysis.
+- Received a Certificate of Internship.
+
+PROJECTS
+Crop Disease Detection System
+Python, Machine Learning, Image Processing
+Developed a machine learning system that detects crop diseases from leaf images using image-processing techniques. Early disease identification can help farmers take preventive action and protect crop yield.
+
+Sherlock — Problem-Solving & Analysis Tool
+Java, Python
+Built an analysis tool that solves real-world problems using programming logic and algorithms. Focus areas: problem solving, algorithms, analytical thinking, and coding efficiency.
+
+Personal Portfolio Website
+HTML, CSS
+Designed and developed a personal portfolio website to showcase projects, skills, and certifications, using a clean, responsive layout for easy navigation.
+
+EDUCATION
+B.Tech — Computer Science Engineering (AI & ML) | 2024 – Present
+SR Institute of Management and Technology
+Dr. A.P.J. Abdul Kalam Technical University (AKTU)
+
+Diploma — Computer Science Engineering | 2024
+Board of Technical Education, Uttar Pradesh (BTEUP)
+
+High School — Class X | 2018
+
+CERTIFICATIONS
+Web Development with HTML/CSS — IIIT Allahabad
+Digital Productivity — NIIT Foundation
+AI Agent Builder Workshop — BotCampus AI
+Certificate of Completion, Machine Learning Virtual Internship — CodeAlpha
+Certificate of Internship, Data Analysis with SQL — Maincrafts Technology
