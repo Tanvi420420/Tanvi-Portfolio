@@ -2,9 +2,52 @@ const siteHeader = document.querySelector('.site-header');
 const menuToggle = document.querySelector('.menu-toggle');
 const navMenu = document.querySelector('.nav-menu');
 const themeToggle = document.querySelector('.theme-toggle');
+const resumeDownload = document.querySelector('#resume-download');
 const contactForm = document.querySelector('#contact-form');
 const formNote = document.querySelector('#form-note');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+async function triggerResumeDownload(event) {
+  if (!resumeDownload) return;
+
+  const resumeUrl = resumeDownload.getAttribute('href');
+  const downloadName = resumeDownload.getAttribute('download') || 'Tanvi-Kushwaha-Resume.pdf';
+
+  if (!resumeUrl) return;
+
+  event.preventDefault();
+
+  try {
+    const response = await fetch(resumeUrl, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Resume download failed: ${response.status}`);
+
+    const blob = await response.blob();
+    const objectUrl = URL.createObjectURL(blob);
+    const tempLink = document.createElement('a');
+    tempLink.href = objectUrl;
+    tempLink.download = downloadName;
+    tempLink.rel = 'noopener';
+    tempLink.style.display = 'none';
+    document.body.appendChild(tempLink);
+    tempLink.click();
+    tempLink.remove();
+    setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+  } catch (error) {
+    const fallbackLink = document.createElement('a');
+    fallbackLink.href = resumeUrl;
+    fallbackLink.download = downloadName;
+    fallbackLink.target = '_blank';
+    fallbackLink.rel = 'noopener';
+    fallbackLink.style.display = 'none';
+    document.body.appendChild(fallbackLink);
+    fallbackLink.click();
+    fallbackLink.remove();
+  }
+}
+
+if (resumeDownload) {
+  resumeDownload.addEventListener('click', triggerResumeDownload);
+}
 
 function applyTheme(theme) {
   const isDark = theme === 'dark';
